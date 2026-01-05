@@ -4,6 +4,8 @@ A lightweight native macOS popup editor for use with CLI tools that support the 
 
 ![popup-edit](https://img.shields.io/badge/macOS-native-blue)
 
+![Screenshot](screenshot.png)
+
 ## Features
 
 - Native macOS floating window
@@ -39,6 +41,8 @@ Download the pre-built binary from the [releases page](https://github.com/happyl
 
 ### With Claude Code
 
+Set the `EDITOR` environment variable:
+
 ```bash
 EDITOR=~/bin/popup-edit claude
 ```
@@ -48,6 +52,10 @@ Or add to your shell profile (`~/.zshrc` or `~/.bashrc`):
 ```bash
 export EDITOR=~/bin/popup-edit
 ```
+
+Then in Claude Code, press **Ctrl+G** to open your prompt in the popup editor. Write your prompt, then:
+- **⌘↩** (Cmd+Enter) to submit the prompt
+- **⎋** (Escape) to cancel
 
 ### Standalone
 
