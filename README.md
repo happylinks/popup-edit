@@ -47,10 +47,10 @@ Set the `EDITOR` environment variable:
 EDITOR=~/bin/popup-edit claude
 ```
 
-Or add to your shell profile (`~/.zshrc` or `~/.bashrc`):
+Or add an alias to your shell profile (`~/.zshrc` or `~/.bashrc`):
 
 ```bash
-export EDITOR=~/bin/popup-edit
+alias claude='EDITOR=~/bin/popup-edit claude'
 ```
 
 Then in Claude Code, press **Ctrl+G** to open your prompt in the popup editor. Write your prompt, then:
